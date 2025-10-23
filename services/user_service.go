@@ -9,7 +9,7 @@ import (
 	"time"
 )
 
-// UserService โครงสร้างข้อมูลสำหรับบริการผู้ใช้
+// สร้าง UserService เป็น struct โครงสร้างข้อมูลสำหรับบริการผู้ใช้
 type UserService struct {
 	users  []models.User // สไลซ์เก็บข้อมูลผู้ใช้ จำลองฐานข้อมูล
 	nextID int           // สร้างเลข id ถัดไป รหัสผู้ใช้ถัดไป
